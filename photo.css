@@ -1,0 +1,16 @@
+#photos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.photo{
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid goldenrod;
+    grid-gap: 20px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
